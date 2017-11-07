@@ -1,0 +1,25 @@
+body {
+    background: yellow;
+    text-align: center;
+}
+
+
+
+.header {
+    color :yellow;
+   border: 50px solid black;
+   background: black;
+    
+}
+
+#buto{
+    background:  red 
+}
+    
+
+.result {
+    color :#FF00B3;
+    border: 50px solid #000000;
+    background: #CE1332;
+
+}

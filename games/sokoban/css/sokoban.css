@@ -1,0 +1,44 @@
+.black {
+    background-color: black;
+    color:white;
+}
+.white {
+    background-color:white;
+    color: darkblue;
+}
+
+.mark {
+    border: 1px solid red;
+}
+
+.gameBoard {
+    font-size:1.4em;
+}
+
+.gameBoard td {
+    width: 30px;
+    height:30px;
+    text-align: center;
+}
+
+.floor {
+    background-color: yellow;
+    color:red;
+}
+
+.wall {
+    background-color: grey;
+    color:white;
+}
+/* .box {
+    background-color: brown;
+    color:white;
+}
+.target {
+    background-color: brown;
+    color:white;
+} */
+
+.h2 {
+    color: pink
+}

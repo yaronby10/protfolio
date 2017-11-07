@@ -1,0 +1,44 @@
+.header {
+    background-color: #e6dead;
+    padding: 20px;
+    color:#b3540f;
+    font-style: bold;
+    text-align: center;
+    border-radius: 10px;
+}
+
+table {
+    margin: 20px auto;    
+}
+
+td {
+    float: right;
+    padding: 10px;    
+    background-color: yellowgreen;
+    text-align: center;
+    height: 30px;
+    width: 30px;    
+    margin: 5px;
+    font-size: 1.3em;
+    line-height: 30px;
+    border-radius: 5px;    
+}
+
+.flipped {
+    /*display: none;*/
+    background: white;
+    color: white;
+}
+
+.time {
+    margin: 20px auto;
+    height: 25px;
+}
+
+.time h4 {
+    display: none;
+}
+
+body {
+    background-color: black
+}

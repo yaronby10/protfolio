@@ -1,0 +1,59 @@
+body {
+    font-family: arial;
+}
+.main {
+    width:225px;
+    font-size: 0;
+}
+.num:focus {
+    outline:none;
+}
+.num:active {
+    background: #B7B8B4
+}
+.num {
+    width:56px;
+    height:50px;  
+    background: #DEE0E0; 
+    background: #DEE0E0;
+    font-size:15px;
+    border: none;
+    border-top: 1px solid rgba(142,142,142,0.5);
+    border-left: 1px solid rgba(142,142,142,0.5);
+
+}
+
+.operator {
+    background: gray;
+    color:white;
+}
+.reset {
+    background: gray;
+    color:white;
+}
+.screen {
+    text-align: right;
+    background: #999999;
+    height:70px;
+    width:224px;
+    color:white;
+    position:relative
+}
+.nums {
+    text-align: right;
+    font-size: 2.5rem;
+    margin-right: 10px;
+    position:absolute;
+    bottom:0;
+    right:0;
+    
+}
+.sign {
+    font-size:0.8rem;
+    margin-right: 10px;
+    display: none;
+}
+.double {
+    width: 112px;
+}
+

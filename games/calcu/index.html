@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="main">
+        <div class="screen">
+            <div class="sign"></div>
+            <div class="nums"></div>
+        </div>
+        <div class="calc">
+            <!-- <button class="num reset" onclick="clearNum()">C</button>                 -->
+            <button class="num">MRC</button>                
+            <button class="num">MC</button>                
+            <button class="num">M+</button>                
+            <button class="num">M-</button>                               
+            <button class="num reset" onclick="clearNum()">C</button>               
+            <!-- <button class="num">%</button>                
+            <button class="num">^</button>                 -->
+            <button class="num operator" onclick=opClicked(this)>%</button>                        
+            <button class="num operator" onclick=opClicked(this)>^</button>                        
+            <button class="num operator" onclick=opClicked(this)>/</button>                        
+            <button class="num" onclick="addDigit(7)">7</button>
+            <button class="num" onclick="addDigit(8)">8</button>
+            <button class="num" onclick="addDigit(9)">9</button>
+            <button class="num operator" onclick=opClicked(this)>X</button>            
+            <button class="num" onclick="addDigit(4)">4</button>
+            <button class="num" onclick="addDigit(5)">5</button>
+            <button class="num" onclick="addDigit(6)">6</button>
+            <button class="num operator" onclick=opClicked(this)>-</button>            
+            <button class="num" onclick="addDigit(1)">1</button>
+            <button class="num" onclick="addDigit(2)">2</button>
+            <button class="num" onclick="addDigit(3)">3</button>
+            <button class="num operator" onclick=opClicked(this)>+</button>            
+            <button class="num double" onclick="addDigit(0)">0</button>
+            <button class="num" onclick="addDigit(this)">.</button>
+            <button class="num operator" onclick="getResult()">=</button>
+        </div>
+    </div>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
