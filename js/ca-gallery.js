@@ -14,7 +14,7 @@ var gProj = [{
   desc: "lorem ipsum lorem ipsum lorem ipsum",
   publishedAt: 1448693940000,
   labels: ["Matrixes", "keyboard events"],
-  link: 'games/mineSweeper'
+  link: 'games/mineSweeper/index.html'
   
 },
 {
