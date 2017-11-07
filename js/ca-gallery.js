@@ -184,6 +184,6 @@ function openMail() {
   var myMail = 'yaronby10@gmail.com'
   var subject = document.querySelector('#subject').value
   var massage = document.querySelector('#massage').value
-  var str = 'https://mail.google.com/mail/?view=cm&fs=1&to=yaronby10@gmail.com&su=" ' + subject + '" ody=" ' + massage + '" '
-  
+  var str = 'https://mail.google.com/mail/?view=cm&fs=1&to=yaronby10@gmail.com&su=" ' + subject + '" massage=" ' + massage + '" '
+  window.open(str);
 }
