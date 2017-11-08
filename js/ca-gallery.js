@@ -20,7 +20,7 @@ var gProj = [{
 {
   id: "touchNums",
   name: "touchNums",
-  title: "find the mines",
+  title: "touch the numbers",
   desc: "lorem ipsum lorem ipsum lorem ipsum",
   publishedAt: 1448693940000,
   labels: ["Matrixes", "keyboard events"],
@@ -50,7 +50,7 @@ link: 'games/calcu/index.html'
   {
     id: "inPicture",
     name: "inPicture",
-    title: "guess the nums",
+    title: "guess the answer",
     desc: "lorem ipsum lorem ipsum lorem ipsum",
     publishedAt: 1448693940000,
     labels: ["Matrixes", "keyboard events"],
@@ -114,14 +114,12 @@ function renderModals() {
                 <a href="'+proj.link + '">\
                 <h2>'+ gProj[i].name + '</h2>\
                 </a>\
-                <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>\
+                <p class="item-intro text-muted">Touch The Name To Play The Game.</p>\
                 <img class="img-fluid d-block mx-auto" src="img/portfolio/'+ gProj[i].id + '.jpg" alt="">\
-                <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis\
-                  dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate,\
-                  maiores repudiandae, nostrum, reiciendis facere nemo!</p>\
+                <p>Lets play the '+ gProj[i].name + ' . An exciting game that was build by yaron ben yair.more games will come later!</p>\
                 <ul class="list-inline">\
-                  <li>Date: January 2017</li>\
-                  <li>Client: Threads</li>\
+                  <li>Date: november 2017</li>\
+                  <li>Client: not yet</li>\
                   <li>Category: Illustration</li>\
                 </ul>\
                 <button class="btn btn-primary" data-dismiss="modal" type="button">\
